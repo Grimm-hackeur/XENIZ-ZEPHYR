@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Bot Alpha",
+    "price": "15$",
+    "image": "https://files.catbox.moe/jqy08d.jpg",
+    "utility": "Automatisation avancée"
+  },
+  {
+    "name": "Tool Beta",
+    "price": "10$",
+    "image": "https://via.placeholder.com/150",
+    "utility": "Optimisation de panel"
+  }
+]

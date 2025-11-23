@@ -1,0 +1,5 @@
+[
+  { "name": "Panel 1GB", "price": "5$", "quantity": "1GB" },
+  { "name": "Panel 5GB", "price": "20$", "quantity": "5GB" },
+  { "name": "Panel Unlimited", "price": "50$", "quantity": "Unlimited" }
+]
