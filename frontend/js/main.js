@@ -2,7 +2,7 @@
 
 // Charger les tools
 if (document.getElementById('toolsContainer')) {
-  fetch('/tools')
+  fetch("/api/tools")
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('toolsContainer');
@@ -38,7 +38,7 @@ function buyTool(name) {
 
 // Charger les panels
 if (document.getElementById('panelsContainer')) {
-  fetch('/panels')
+  fetch("/api/panels")
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('panelsContainer');
