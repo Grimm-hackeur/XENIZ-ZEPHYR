@@ -1,25 +1,11 @@
 {
   "name": "zephyr-shop",
   "version": "1.0.0",
-  "description": "Site shop Zephyr pour vendre tools, bots et panels",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "start": "node backend/server.js"
   },
-  "keywords": [
-    "shop",
-    "tools",
-    "bots",
-    "panels",
-    "zephyr"
-  ],
-  "author": "Zephyr",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
