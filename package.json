@@ -1,0 +1,12 @@
+{
+  "name": "zephyr-shop",
+  "version": "1.0.0",
+  "description": "Shop website for tools, bots and panels",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
