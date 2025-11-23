@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Zephyr Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌀 Zephyr Shop</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="tools.html">Tools & Bots</a>
+      <a href="panels.html">Panels</a>
+    </nav>
+  </header>
+
+  <main style="text-align:center;">
+    <h1 style="color:#00d4ff;">Contactez-nous</h1>
+    <form id="contactForm" style="max-width:400px; margin:0 auto; display:flex; flex-direction:column; gap:10px;">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="contactStatus"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zephyr Shop. Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
